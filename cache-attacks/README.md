@@ -4,7 +4,7 @@
 - Usage `ecdsa_sign.sh <#signatures> <curve_parameter> <result_directory>`
 
 ### `fr-trace-gf2m.sh` and `fr-trace-gfp.sh`
-- Wrapper scripts for `FR-trace-modified`.
+- Wrapper scripts for `FR-trace`.
 
 ### `analysis-gf2m.py` and `analysis-gfp.sh`
 - Detect the second most significant bit of nonces given traces and log files stored in the result directory, calculate the accurary.
@@ -19,8 +19,8 @@
 
 ## Experimental results
 ### Binary curves
-- Run `python analysis-gf2m.py results-gf2m-noblind` to see the experimental results for 100 sect163r1 signatures.
+- Run `python analysis-gf2m.py results-gf2m-1000` to see the experimental results for 1000 sect163r1 signatures.
 
 ### Prime curves
-- Run `python analysis-gfp.py results-gfp-10000` to see the experimental results for 10000 secp192r1 signatures. 
+- Run `python analysis-gfp.py results-gfp-1000-r1` to see the experimental results for 1000 secp192r1 signatures. 
  

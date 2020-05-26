@@ -5,5 +5,5 @@ touch test.txt
 ./fr-trace-gf2m.sh
 sleep 1
 ./ecdsa_sign.sh 10000 sect163r1 results-gf2m
-killall -9 ./FR-trace-modified
+killall -9 ./FR-trace
 python analysis-gf2m.py results-gf2m
