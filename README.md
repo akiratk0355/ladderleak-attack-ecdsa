@@ -1,0 +1,2 @@
+# *LadderLeak*: Breaking ECDSA With Less Than One Bit Of Nonce Leakage
+This repository contains the attack code to exploit [small side-channel leakage](https://github.com/openssl/openssl/pull/11361) from OpenSSL ECDSA nonces in version `1.0.2` and `1.1.0`, as well as our constant-time patch for scalar multiplication. The attacks were made possible with [Flush+Reload](https://eprint.iacr.org/2013/.pdf) cache attack technique. See [our manuscript](https://eprint.iacr.org/2020/615.pdf) for more details. 
