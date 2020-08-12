@@ -1,7 +1,7 @@
 ## Scripts
 
 ### `build.sh`
-- Download OpenSSL and build with the default configuration.
+- Download OpenSSL `1.0.2u` and build with the default configuration.
 
 ### `ecdsa_sign.sh`
 - Generage ECDSA signatures with a given curve parameter, save output log under the specified directory.
