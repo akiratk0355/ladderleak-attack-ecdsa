@@ -26,5 +26,5 @@
 - Run `python analysis-gf2m.py results-gf2m-1000` to see the experimental results for 1000 sect163r1 signatures.
 
 ### Prime curves
-- Run `python analysis-gfp.py results-gfp-1000-r1` to see the experimental results for 1000 secp192r1 signatures. 
+- Run `python analysis-gfp.py results-gfp-1000-r1` or `-k1` to see the experimental results for 1000 secp192r1 or secp192k1 signatures, respectively. The same applies to the respective folders with 10000 signatures in both curves.
  
