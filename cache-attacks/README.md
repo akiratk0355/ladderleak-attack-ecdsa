@@ -28,3 +28,4 @@
 ### Prime curves
 - Run `python analysis-gfp.py results-gfp-1000-r1` or `-k1` to see the experimental results for 1000 secp192r1 or secp192k1 signatures, respectively. The same applies to the respective folders with 10000 signatures in both curves.
  
+Additional traces showing that the countermeasures make the attack ineffective and a large dataset containing 10000 signatures for curve sect163r1 can be found [here](https://drive.google.com/drive/folders/1w8BKpJwI9ip397buqOATBco0ktcWf6uU).
