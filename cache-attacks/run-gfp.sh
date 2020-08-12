@@ -1,6 +1,6 @@
 #!/bin/sh
-../apps/openssl ecparam -out secp192r1.pem -name secp192r1 -genkey
-../apps/openssl ec -in secp192r1.pem -pubout -out secp192r1.pub
+openssl-1.0.2u/apps/openssl ecparam -out secp192r1.pem -name secp192r1 -genkey
+openssl-1.0.2u/apps/openssl ec -in secp192r1.pem -pubout -out secp192r1.pub
 touch test.txt
 ./fr-trace-gfp.sh
 sleep 1

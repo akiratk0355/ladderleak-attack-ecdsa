@@ -1,6 +1,6 @@
 #!/bin/sh
-../apps/openssl ecparam -out sect163r1.pem -name sect163r1 -genkey
-../apps/openssl ec -in sect163r1.pem -pubout -out sect163r1.pub
+openssl-1.0.2u/apps/openssl ecparam -out sect163r1.pem -name sect163r1 -genkey
+openssl-1.0.2u/apps/openssl ec -in sect163r1.pem -pubout -out sect163r1.pub
 touch test.txt
 ./fr-trace-gf2m.sh
 sleep 1
